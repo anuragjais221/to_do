@@ -1,0 +1,133 @@
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+
+#sidebar {
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    top: 0;
+    background: #252d48;
+    padding: 10px 0 0;
+    line-height: 20px;
+    transition: all 0.6s;
+    min-width: 250px;
+    max-width: 250px;
+    position: fixed;
+    z-index: 200;
+  
+}
+
+.text-center {
+    text-align: center;
+}
+
+#sidebar a.home i {
+    background: url(../Assets/images/camera-white.svg) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+#sidebar img.vms {
+    height: 70px;
+    position: relative;
+    transition: opacity 0.2s 0.5s ease;
+    margin-top: 20px;
+}
+
+.MuiCircularProgress-svg {
+color: white;
+}
+
+#sidebar a {
+display: flex !important;
+align-items: center;
+padding: 15px 0 15px 30px;
+color: #ffffff;
+position: relative;
+transition: all 0.6s;
+/* margin: 10px 0; */
+/* border-top-width: thin;
+border-top-color: #8A8A8A;
+opacity: 67% */
+}
+
+#sidebar .menu {
+    padding: 15px 0 15px 15px;
+    color: #ffffff;
+    text-align: left;
+    }
+#sidebar a span {
+margin-left: 16px;
+}
+
+#sidebar ul {
+    height: calc(100% - 190px);
+    /* overflow: auto; */
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* #sidebar ul li {
+border-top-color: #589dd0;
+border-top-width: thin;
+} */
+#sidebar ul li.no-link a {
+box-shadow: none;
+margin-bottom: 0;
+}
+
+
+#sidebar a i {
+    width: 24px;
+    height: 24px;
+}
+#sidebar a.meditate i {
+    background: url(../Assets/images/assign.png) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+#sidebar a.sleep i {
+    background: url(../Assets/images/camera-white.svg) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+#sidebar a.music i {
+    background: url(../Assets/images/camera-white.svg) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+#sidebar a.forwork i {
+    background: url(../Assets/images/camera-white.svg) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+#sidebar a.wisdom i {
+    background: url(../Assets/images/camera-white.svg) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+#sidebar a.calmkids i {
+    background: url(../Assets/images/camera-white.svg) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+#sidebar a.movement i {
+    background: url(../Assets/images/camera-white.svg) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+#sidebar a.profile i {
+    background: url(../Assets/images/camera-white.svg) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
